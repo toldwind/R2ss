@@ -1,0 +1,570 @@
+Thu Jan 21 16:50:36 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Thu Jan 21 16:50:36 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to [::]:443 failed (98: Address in use)
+Thu Jan 21 16:50:36 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Thu Jan 21 16:50:36 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to [::]:80 failed (98: Address in use)
+Thu Jan 21 16:50:36 2016 user.notice ucitrack: Setting up /etc/config/cpufreq reload trigger for non-procd /etc/init.d/cpufreq
+Thu Jan 21 16:50:36 2016 user.notice nlbwmon: Reloading nlbwmon due to ifup of lan (br-lan)
+Thu Jan 21 16:50:36 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Thu Jan 21 16:50:36 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to [::]:443 failed (98: Address in use)
+Thu Jan 21 16:50:36 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Thu Jan 21 16:50:36 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to [::]:80 failed (98: Address in use)
+Thu Jan 21 16:50:36 2016 user.notice ucitrack: Setting up non-init /etc/config/appfilter reload handler: /usr/bin/oaf_rule reload
+Thu Jan 21 16:50:37 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Thu Jan 21 16:50:37 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to [::]:443 failed (98: Address in use)
+Thu Jan 21 16:50:37 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Thu Jan 21 16:50:37 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to [::]:80 failed (98: Address in use)
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/adbyby reload trigger for non-procd /etc/init.d/adbyby
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/filebrowser reload trigger for non-procd /etc/init.d/filebrowser
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/luci-app-ipsec-server reload trigger for non-procd /etc/init.d/luci-app-ipsec-server
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/socat reload trigger for non-procd /etc/init.d/luci_socat
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/ssr_mudb_server reload trigger for non-procd /etc/init.d/ssr_mudb_server
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/arpbind reload trigger for non-procd /etc/init.d/arpbind
+Thu Jan 21 16:50:37 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Thu Jan 21 16:50:37 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to [::]:443 failed (98: Address in use)
+Thu Jan 21 16:50:37 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Thu Jan 21 16:50:37 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: bind() to [::]:80 failed (98: Address in use)
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/cifs reload trigger for non-procd /etc/init.d/cifs
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/eqos reload trigger for non-procd /etc/init.d/eqos
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/frp reload trigger for non-procd /etc/init.d/frp
+Thu Jan 21 16:50:37 2016 kern.info kernel: [   28.994186] rk_gmac-dwmac ff540000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+Thu Jan 21 16:50:37 2016 kern.info kernel: [   28.996068] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Thu Jan 21 16:50:37 2016 daemon.notice netifd: Network device 'eth0' link is up
+Thu Jan 21 16:50:37 2016 daemon.notice netifd: Interface 'wan' has link connectivity
+Thu Jan 21 16:50:37 2016 daemon.notice netifd: Interface 'wan' is setting up now
+Thu Jan 21 16:50:37 2016 daemon.notice netifd: Interface 'wan6' has link connectivity
+Thu Jan 21 16:50:37 2016 daemon.notice netifd: Interface 'wan6' is setting up now
+Thu Jan 21 16:50:37 2016 daemon.notice netifd: wan (4643): udhcpc: started, v1.36.0
+Thu Jan 21 16:50:37 2016 daemon.err odhcp6c[4644]: Failed to send RS (Address not available)
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/guest-wifi reload trigger for non-procd /etc/init.d/guest-wifi
+Thu Jan 21 16:50:37 2016 daemon.notice netifd: wan (4643): udhcpc: broadcasting discover
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/kodexplorer reload trigger for non-procd /etc/init.d/kodexplorer
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/mia reload trigger for non-procd /etc/init.d/mia
+Thu Jan 21 16:50:37 2016 user.notice ucitrack: Setting up /etc/config/mwan3helper reload trigger for non-procd /etc/init.d/mwan3helper
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/nfs reload trigger for non-procd /etc/init.d/nfs
+Thu Jan 21 16:50:38 2016 daemon.err nginx[3461]: 2016/01/21 16:50:35 [emerg] 3461#0: still could not bind()
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/openclash reload trigger for non-procd /etc/init.d/openclash
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/owntone reload trigger for non-procd /etc/init.d/owntone
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/passwall reload trigger for non-procd /etc/init.d/passwall
+Thu Jan 21 16:50:38 2016 user.info mwan3rtmon[3464]: Detect rtchange event.
+Thu Jan 21 16:50:38 2016 user.notice nlbwmon: Reloading nlbwmon due to ifup of loopback (lo)
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/passwall_server reload trigger for non-procd /etc/init.d/passwall_server
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/passwall2 reload trigger for non-procd /etc/init.d/passwall2
+Thu Jan 21 16:50:38 2016 daemon.err odhcp6c[4644]: Failed to send SOLICIT message to ff02::1:2 (Address not available)
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/passwall2_server reload trigger for non-procd /etc/init.d/passwall2_server
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/pushbot reload trigger for non-procd /etc/init.d/pushbot
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/softethervpn reload trigger for non-procd /etc/init.d/softethervpn
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/shadowsocksr reload trigger for non-procd /etc/init.d/shadowsocksr
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up non-init /etc/config/syncdial reload handler: /bin/genwancfg
+Thu Jan 21 16:50:38 2016 user.notice ucitrack: Setting up /etc/config/turboacc reload trigger for non-procd /etc/init.d/turboacc
+Thu Jan 21 16:50:39 2016 daemon.info avahi-daemon[3171]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::c4e4:bff:fe71:72e7.
+Thu Jan 21 16:50:39 2016 daemon.info avahi-daemon[3171]: New relevant interface eth0.IPv6 for mDNS.
+Thu Jan 21 16:50:39 2016 daemon.info avahi-daemon[3171]: Registering new address record for fe80::c4e4:bff:fe71:72e7 on eth0.*.
+Thu Jan 21 16:50:39 2016 user.notice ucitrack: Setting up /etc/config/usb_printer reload trigger for non-procd /etc/init.d/usb_printer
+Thu Jan 21 16:50:39 2016 user.notice ucitrack: Setting up /etc/config/vlmcsd reload trigger for non-procd /etc/init.d/kms
+Thu Jan 21 16:50:39 2016 user.notice ucitrack: Setting up /etc/config/vsftpd reload trigger for non-procd /etc/init.d/vsftpd
+Thu Jan 21 16:50:39 2016 user.notice ucitrack: Setting up /etc/config/vssr reload trigger for non-procd /etc/init.d/vssr
+Thu Jan 21 16:50:39 2016 user.notice ucitrack: Setting up /etc/config/xlnetacc reload trigger for non-procd /etc/init.d/xlnetacc
+Thu Jan 21 16:50:39 2016 daemon.info procd: Not starting instance irqbalance::env, command not set
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ arch_timer(11) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ rockchip_usb2phy(18) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ff1f0000.dma-controller(19) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ff1f0000.dma-controller(20) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ttyS2(21) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ff350800.iommu(22) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ff360480.iommu(23) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ eth0(24) guessed as class 5
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ xhci-hcd:usb1(25) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ehci_hcd:usb3(26) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ohci_hcd:usb2(27) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ff150000.i2c(28) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ff160000.i2c(29) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ rk805(30) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ RTC alarm(36) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ rockchip_thermal(39) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ff1a0000.watchdog(40) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ dw-mci(41) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ keys(42) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.debug /usr/sbin/irqbalance: IRQ ff580000.usb, dwc2_hsotg:usb5(43) guessed as class 0
+Thu Jan 21 16:50:39 2016 daemon.notice netifd: wan (4643): udhcpc: broadcasting select for 192.168.1.2, server 192.168.1.1
+Thu Jan 21 16:50:39 2016 kern.alert kernel: [   31.198381] fast-classifier: starting up
+Thu Jan 21 16:50:39 2016 kern.alert kernel: [   31.198816] fast-classifier: registered
+Thu Jan 21 16:50:39 2016 daemon.notice procd: /etc/rc.d/S90turboacc: net.ipv4.tcp_congestion_control = cubic
+Thu Jan 21 16:50:39 2016 daemon.notice procd: /etc/rc.d/S90turboacc: killall: dnscache: no process killed
+Thu Jan 21 16:50:39 2016 daemon.notice procd: /etc/rc.d/S90turboacc: sh: you need to specify whom to kill
+Thu Jan 21 16:50:39 2016 daemon.notice procd: /etc/rc.d/S90turboacc: Stop DNS Caching
+Thu Jan 21 16:50:39 2016 daemon.notice procd: /etc/rc.d/S90turboacc: DNSMASQ change
+Thu Jan 21 16:50:39 2016 daemon.notice netifd: wan (4643): udhcpc: lease of 192.168.1.2 obtained from 192.168.1.1, lease time 86400
+Thu Jan 21 16:50:40 2016 daemon.info avahi-daemon[3171]: Joining mDNS multicast group on interface eth0.IPv4 with address 192.168.1.2.
+Thu Jan 21 16:50:40 2016 daemon.info avahi-daemon[3171]: New relevant interface eth0.IPv4 for mDNS.
+Thu Jan 21 16:50:40 2016 daemon.info avahi-daemon[3171]: Registering new address record for 192.168.1.2 on eth0.IPv4.
+Thu Jan 21 16:50:40 2016 daemon.notice netifd: Interface 'wan' is now up
+Thu Jan 21 16:50:41 2016 user.notice firewall: Reloading firewall due to ifup of wan (eth0)
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Warning: using existing /tmp/usage.db
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.notice procd: /etc/rc.d/S91wrtbwmon: Another app is currently holding the xtables lock. Perhaps you want to use the -w option?
+Thu Jan 21 16:50:41 2016 daemon.info rclone: Instance "rclone" is disabled.
+Thu Jan 21 16:50:41 2016 daemon.info avahi-daemon[3171]: Leaving mDNS multicast group on interface eth0.IPv6 with address fe80::c4e4:bff:fe71:72e7.
+Thu Jan 21 16:50:41 2016 daemon.info avahi-daemon[3171]: Joining mDNS multicast group on interface eth0.IPv6 with address 240e:3a1:56e7:1ad0:c6e4:bff:fe71:72e7.
+Thu Jan 21 16:50:41 2016 daemon.info avahi-daemon[3171]: Registering new address record for 240e:3a1:56e7:1ad0:c6e4:bff:fe71:72e7 on eth0.*.
+Thu Jan 21 16:50:41 2016 daemon.info avahi-daemon[3171]: Withdrawing address record for fe80::c4e4:bff:fe71:72e7 on eth0.
+Thu Jan 21 16:50:41 2016 daemon.info avahi-daemon[3171]: Registering new address record for 240e:3a1:56e7:1ad0:c4e4:bff:fe71:72e7 on eth0.*.
+Thu Jan 21 16:50:41 2016 daemon.info avahi-daemon[3171]: Leaving mDNS multicast group on interface br-lan.IPv6 with address fe80::c4e4:bff:fe71:72e8.
+Thu Jan 21 16:50:41 2016 daemon.info avahi-daemon[3171]: Joining mDNS multicast group on interface br-lan.IPv6 with address 240e:3a1:56e7:1ad1::1.
+Thu Jan 21 16:50:41 2016 daemon.info avahi-daemon[3171]: Registering new address record for 240e:3a1:56e7:1ad1::1 on br-lan.*.
+Thu Jan 21 16:50:41 2016 daemon.info avahi-daemon[3171]: Withdrawing address record for fe80::c4e4:bff:fe71:72e8 on br-lan.
+Thu Jan 21 16:50:41 2016 daemon.notice netifd: Interface 'wan6' is now up
+Thu Jan 21 16:50:42 2016 user.notice nlbwmon: Reloading nlbwmon due to ifup of wan (eth0)
+Thu Jan 21 16:50:42 2016 daemon.notice procd: /etc/rc.d/S96appfilter: rm: can't remove '/tmp/feature.cfg': No such file or directory
+Thu Jan 21 16:50:42 2016 daemon.notice procd: /etc/rc.d/S96appfilter: rm: can't remove '/tmp/app_class.txt': No such file or directory
+Thu Jan 21 16:50:42 2016 daemon.notice procd: /etc/rc.d/S96appfilter: #class chat 1 聊天
+Thu Jan 21 16:50:42 2016 daemon.notice procd: /etc/rc.d/S96appfilter: #class game 2 游戏
+Thu Jan 21 16:50:43 2016 daemon.notice procd: /etc/rc.d/S96appfilter: #class video 3 视频
+Thu Jan 21 16:50:43 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Thu Jan 21 16:50:43 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to [::]:443 failed (98: Address in use)
+Thu Jan 21 16:50:43 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Thu Jan 21 16:50:43 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to [::]:80 failed (98: Address in use)
+Thu Jan 21 16:50:43 2016 user.notice firewall: Reloading firewall due to ifup of wan6 (eth0)
+Thu Jan 21 16:50:43 2016 daemon.notice procd: /etc/rc.d/S96appfilter: #class shopping 4 购物
+Thu Jan 21 16:50:43 2016 user.info mwan3rtmon[5952]: Detect rtchange event.
+Thu Jan 21 16:50:43 2016 daemon.notice procd: /etc/rc.d/S96appfilter: #class music 5 音乐
+Thu Jan 21 16:50:43 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Thu Jan 21 16:50:43 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to [::]:443 failed (98: Address in use)
+Thu Jan 21 16:50:43 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Thu Jan 21 16:50:43 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to [::]:80 failed (98: Address in use)
+Thu Jan 21 16:50:43 2016 daemon.notice procd: /etc/rc.d/S96appfilter: #class employee 6 招聘
+Thu Jan 21 16:50:44 2016 daemon.notice procd: /etc/rc.d/S96appfilter: #class download 7 下载
+Thu Jan 21 16:50:44 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Thu Jan 21 16:50:44 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to [::]:443 failed (98: Address in use)
+Thu Jan 21 16:50:44 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Thu Jan 21 16:50:44 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to [::]:80 failed (98: Address in use)
+Thu Jan 21 16:50:44 2016 daemon.notice procd: /etc/rc.d/S96appfilter: #class website 8 常用网站
+Thu Jan 21 16:50:44 2016 user.notice nlbwmon: Reloading nlbwmon due to ifup of wan6 (eth0)
+Thu Jan 21 16:50:44 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Thu Jan 21 16:50:44 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to [::]:443 failed (98: Address in use)
+Thu Jan 21 16:50:44 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Thu Jan 21 16:50:44 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to [::]:80 failed (98: Address in use)
+Thu Jan 21 16:50:45 2016 kern.warn kernel: [   36.488329] init oaf sysctl...ok
+Thu Jan 21 16:50:45 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Thu Jan 21 16:50:45 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to [::]:443 failed (98: Address in use)
+Thu Jan 21 16:50:45 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Thu Jan 21 16:50:45 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: bind() to [::]:80 failed (98: Address in use)
+Thu Jan 21 16:50:45 2016 daemon.notice procd: /etc/rc.d/S96led: setting up led WAN
+Thu Jan 21 16:50:45 2016 daemon.notice procd: /etc/rc.d/S96led: setting up led LAN
+Thu Jan 21 16:50:45 2016 daemon.notice procd: /etc/rc.d/S96rockchip-fan: fa-pwmfan started
+Thu Jan 21 16:50:45 2016 daemon.info samba4-server: io_uring module found, enabling VFS io_uring. (also needs Kernel 5.4+ Support)
+Thu Jan 21 16:50:45 2016 daemon.info samba4-server: io_uring module found, enabling VFS io_uring. (also needs Kernel 5.4+ Support)
+Thu Jan 21 16:50:45 2016 daemon.info samba4-server: io_uring module found, enabling VFS io_uring. (also needs Kernel 5.4+ Support)
+Thu Jan 21 16:50:45 2016 daemon.info samba4-server: io_uring module found, enabling VFS io_uring. (also needs Kernel 5.4+ Support)
+Thu Jan 21 16:50:45 2016 daemon.err nginx[7623]: 2016/01/21 16:50:43 [emerg] 7623#0: still could not bind()
+Thu Jan 21 16:50:46 2016 daemon.err nmbd[10140]: [2016/01/21 16:50:46.297333,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+Thu Jan 21 16:50:46 2016 daemon.err nmbd[10140]:   daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+Thu Jan 21 16:50:46 2016 daemon.info aria2: Aria2 will run with user 'aria2'.
+Thu Jan 21 16:50:46 2016 daemon.info aria2: Please make sure user 'aria2' has write access to download dir: /vlc/
+Thu Jan 21 16:50:46 2016 daemon.err smbd[10139]: [2016/01/21 16:50:46.454853,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+Thu Jan 21 16:50:46 2016 daemon.err smbd[10139]:   daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+Thu Jan 21 16:50:46 2016 daemon.info aria2c[10446]: jail: exec-ing /usr/bin/aria2c
+Thu Jan 21 16:50:46 2016 user.notice dockerd-init: Bridge device 'docker0' already defined in network config
+Thu Jan 21 16:50:46 2016 daemon.notice procd: /etc/rc.d/S99dockerd: uci: Entry not found
+Thu Jan 21 16:50:46 2016 daemon.notice procd: /etc/rc.d/S99dockerd: uci: Entry not found
+Thu Jan 21 16:50:48 2016 daemon.err dockerd[10693]: time="2016-01-21T16:50:48+08:00" level=warning msg="containerd config version `1` has been deprecated and will be removed in containerd v2.0, please switch to version `2`, see https://github.com/containerd/containerd/blob/main/docs/PLUGINS.md#version-header"
+Thu Jan 21 16:50:48 2016 daemon.err modprobe: failed to find a module named aufs
+Thu Jan 21 16:50:48 2016 daemon.err dockerd[10693]: time="2016-01-21T16:50:48.943226844+08:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+Thu Jan 21 16:50:48 2016 daemon.err dockerd[10693]: time="2016-01-21T16:50:48.948375635+08:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+Thu Jan 21 16:50:48 2016 daemon.err dockerd[10693]: time="2016-01-21T16:50:48.965889344+08:00" level=error msg="failed to initialize a tracing processor \"otlp\"" error="no OpenTelemetry endpoint: skip plugin"
+Thu Jan 21 16:50:49 2016 daemon.err dockerd[10693]: time="2016-01-21T16:50:49.142130386+08:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+Thu Jan 21 16:50:49 2016 daemon.err dockerd[10693]: time="2016-01-21T16:50:49.142286427+08:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+Thu Jan 21 16:50:49 2016 daemon.info modprobe: nf_conntrack is already loaded
+Thu Jan 21 16:50:49 2016 daemon.info modprobe: nf_conntrack_netlink is already loaded
+Thu Jan 21 16:50:49 2016 daemon.info avahi-daemon[3171]: Joining mDNS multicast group on interface docker0.IPv4 with address 172.17.0.1.
+Thu Jan 21 16:50:49 2016 daemon.info avahi-daemon[3171]: New relevant interface docker0.IPv4 for mDNS.
+Thu Jan 21 16:50:49 2016 daemon.info avahi-daemon[3171]: Registering new address record for 172.17.0.1 on docker0.IPv4.
+Thu Jan 21 16:50:50 2016 daemon.err dockerd[10693]: time="2016-01-21T16:50:50.101173553+08:00" level=warning msg="Error (Unable to complete atomic operation, key modified) deleting object [endpoint d43cd5b80384a0108efb9ec12134a2d5c5a5be0b58edb5ee312b11d837c4d727 41952acbba2b36ce8a05431fa7c085c03d0b44958e562a380755461019f7563f], retrying...."
+Mon Jul 24 23:54:27 2023 kern.info kernel: [   41.780022] docker0: port 1(veth0a9e7ca) entered blocking state
+Mon Jul 24 23:54:27 2023 kern.info kernel: [   41.780622] docker0: port 1(veth0a9e7ca) entered disabled state
+Mon Jul 24 23:54:27 2023 kern.info kernel: [   41.781669] device veth0a9e7ca entered promiscuous mode
+Mon Jul 24 23:54:27 2023 kern.info kernel: [   41.782918] docker0: port 1(veth0a9e7ca) entered blocking state
+Mon Jul 24 23:54:27 2023 kern.info kernel: [   41.783460] docker0: port 1(veth0a9e7ca) entered forwarding state
+Mon Jul 24 23:54:27 2023 kern.info kernel: [   41.784377] docker0: port 1(veth0a9e7ca) entered disabled state
+Mon Jul 24 23:54:27 2023 daemon.err dockerd[10693]: time="2023-07-24T23:54:27.654262333+08:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Mon Jul 24 23:54:27 2023 daemon.err dockerd[10693]: time="2023-07-24T23:54:27.654686708+08:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Mon Jul 24 23:54:27 2023 daemon.err dockerd[10693]: time="2023-07-24T23:54:27.654826125+08:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Mon Jul 24 23:54:27 2023 daemon.err dockerd[10693]: time="2023-07-24T23:54:27.655735833+08:00" level=info msg="starting signal loop" namespace=moby path=/tmp/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/c2020fa830a6e053a5a667da31d76ed452216578e524cf8d16d7e43b41f4beda pid=10988 runtime=io.containerd.runc.v2
+Mon Jul 24 23:54:27 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:27 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:27 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:27 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:28 2023 kern.info kernel: [   42.734106] eth0: renamed from veth911a926
+Mon Jul 24 23:54:28 2023 daemon.notice netifd: bridge 'docker0' link is up
+Mon Jul 24 23:54:28 2023 daemon.notice netifd: Interface 'docker' has link connectivity
+Mon Jul 24 23:54:28 2023 kern.info kernel: [   42.760066] IPv6: ADDRCONF(NETDEV_CHANGE): veth0a9e7ca: link becomes ready
+Mon Jul 24 23:54:28 2023 kern.info kernel: [   42.761028] docker0: port 1(veth0a9e7ca) entered blocking state
+Mon Jul 24 23:54:28 2023 kern.info kernel: [   42.761597] docker0: port 1(veth0a9e7ca) entered forwarding state
+Mon Jul 24 23:54:28 2023 kern.info kernel: [   42.762838] IPv6: ADDRCONF(NETDEV_CHANGE): docker0: link becomes ready
+Mon Jul 24 23:54:28 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:28 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:28 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:28 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:28 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:28 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:28 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:28 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:29 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:29 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:29 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:29 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:29 2023 daemon.info avahi-daemon[3171]: Joining mDNS multicast group on interface veth0a9e7ca.IPv6 with address fe80::28a3:18ff:fe7a:1931.
+Mon Jul 24 23:54:29 2023 daemon.info avahi-daemon[3171]: New relevant interface veth0a9e7ca.IPv6 for mDNS.
+Mon Jul 24 23:54:29 2023 daemon.info avahi-daemon[3171]: Registering new address record for fe80::28a3:18ff:fe7a:1931 on veth0a9e7ca.*.
+Mon Jul 24 23:54:29 2023 daemon.info avahi-daemon[3171]: Joining mDNS multicast group on interface docker0.IPv6 with address fe80::42:33ff:fe25:397a.
+Mon Jul 24 23:54:29 2023 daemon.info avahi-daemon[3171]: New relevant interface docker0.IPv6 for mDNS.
+Mon Jul 24 23:54:29 2023 daemon.info avahi-daemon[3171]: Registering new address record for fe80::42:33ff:fe25:397a on docker0.*.
+Mon Jul 24 23:54:29 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:29 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:29 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:29 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:30 2023 daemon.err nginx[10983]: 2023/07/24 23:54:27 [emerg] 10983#0: still could not bind()
+Mon Jul 24 23:54:35 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:35 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:35 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:35 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:36 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:36 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:36 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:36 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:36 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:36 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:36 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:36 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:37 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:37 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:37 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:37 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:37 2023 cron.info crond[2229]: time disparity of 3947464 minutes detected
+Mon Jul 24 23:54:37 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:37 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:37 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:37 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:38 2023 daemon.err nginx[11266]: 2023/07/24 23:54:35 [emerg] 11266#0: still could not bind()
+Mon Jul 24 23:54:40 2023 daemon.info frps: Instance "main" disabled.
+Mon Jul 24 23:54:40 2023 daemon.notice procd: /etc/rc.d/S99frps: [info] Instance "main" disabled.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: TIMEZONE: using strftime(): 'CST'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: TIMEZONE: fixed as 'CST'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: SIGNAL: Not enabling reaper
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: resources control: allowed file descriptors: soft = 1024, max = 4096
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Adjusted my Out-Of-Memory (OOM) score from 0 to 1000.
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: Cannot adjust netdata scheduling policy to idle (5), with priority 0. Falling back to nice.
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: Cannot get my current process scheduling policy.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: netdata started on pid 11595.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing spawn client.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Executing /usr/lib/netdata/plugins.d/system-info.sh
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_CONTAINER_OS_NAME=none
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_CONTAINER_OS_ID=none
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_CONTAINER_OS_ID_LIKE=none
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_CONTAINER_OS_VERSION=none
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_CONTAINER_OS_VERSION_ID=none
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_CONTAINER_OS_DETECTION=none
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_CONTAINER_IS_OFFICIAL_IMAGE=false
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_HOST_OS_NAME=OpenWrt
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_HOST_OS_ID=openwrt
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_HOST_OS_ID_LIKE=lede openwrt
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_HOST_OS_VERSION=SNAPSHOT
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_HOST_OS_VERSION_ID=snapshot
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_HOST_OS_DETECTION=/etc/os-release
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_HOST_IS_K8S_NODE=false
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_KERNEL_NAME=Linux
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_KERNEL_VERSION=6.1.38
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_ARCHITECTURE=aarch64
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_VIRTUALIZATION=none
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_VIRT_DETECTION=none
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_CONTAINER=unknown
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_CONTAINER_DETECTION=none
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_CPU_LOGICAL_CPU_COUNT=4
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_CPU_VENDOR=ARM
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_CPU_MODEL=Cortex-A53
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_CPU_FREQ=1608000000
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_CPU_DETECTION=lscpu
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_TOTAL_RAM=1034698752
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_RAM_DETECTION=procfs
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_TOTAL_DISK_SIZE=0
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: NETDATA_SYSTEM_DISK_DETECTION=sysfs
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: SQLite database /var/cache/netdata/netdata-meta.db initialization
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: SQLite database initialization completed
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: CONFIG: cannot load user config '/etc/netdata/stream.conf'. Will try stock config.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Host 'OpenWrt' (at registry as 'OpenWrt') with guid '664b0ed2-2a3a-11ee-90fa-c6e40b7172e7' initialized, os 'linux', timezone 'CST', tags '', program_name 'netdata', program_version '20200416-2457-ge37fe980b', update every 2, memory mode save, history entries 3996, streaming disabled (to '' with api key ''), health disabled, cache_dir '/var/cache/netdata', varlib_dir '/var/lib/netdata', health_log '/var/lib/netdata/health/health-log.db', alarms default handler '/usr/lib/netdata/plugins.d/alarm-notify.sh', alarms default recipient 'root'
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: PROCFILE: Cannot open file '/etc/netdata/.environment'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11776
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11776 to PLUGIN[idlejitt
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11777
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11778
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11778 to HEALTH
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11777 to GLOBAL_STATS
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11779
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11779 to PLUGINSD
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.idlejitter/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11781
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11780
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11780 to SERVICE
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11782
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11782 to BACKENDS
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11781 to STATSD
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11783
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11784
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11783 to PLUGINSD[ioping
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11786
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11785
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11784 to EXPORTING
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: cleaning up...
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread with task id 11782 finished
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11787
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11787 to PLUGINSD[perf]
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing command server.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.idlejitter/min.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: CONFIG: cannot load user exporting config '/etc/netdata/exporting.conf'. Will try the stock version.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11789
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11786 to PLUGIN[timex]
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11789 to PLUGIN[tc]
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11791
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11791 to PLUGIN[proc]
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: connected to '/usr/lib/netdata/plugins.d/ioping.plugin' running on pid 11788
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11790
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11790 to PLUGIN[diskspac
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: netdata initialization completed. Enjoy real-time performance monitoring!
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: This agent doesn't have ACLK.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: connected to '/usr/lib/netdata/plugins.d/perf.plugin' running on pid 11793
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.idlejitter/max.db.
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: INTERNAL ERROR: indexing of section 'plugin:proc', already exists.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.idlejitter/average.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11785 to WEB_SERVER[stat
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: starting worker 2
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: starting worker 3
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11795
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11795 to WEB_SERVER[stat
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_metrics/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: starting worker 4
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: No connector instances to activate
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: EXPORTING: no exporting connectors configured
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: cleaning up...
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread with task id 11784 finished
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11796
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11796 to STATSD_COLLECTO
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: STATSD collector thread started with taskid 11796
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'udp:[::1]:8125'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11798
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'udp:127.0.0.1:8125'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11798 to WEB_SERVER[stat
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_metrics/gauges.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: called DISABLE. Disabling it.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: PARSER ended
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: '/usr/lib/netdata/plugins.d/perf.plugin' (pid 11793) disconnected after 0 successful data collections (ENDs).
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_metrics/counters.db.
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: child pid 11793 exited with code 1.
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: '/usr/lib/netdata/plugins.d/perf.plugin' (pid 11793) exited with error code 1 and haven't collected any data. Disabling it.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread with task id 11787 finished
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_metrics/timers.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_metrics/meters.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'tcp:[::1]:8125'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'tcp:127.0.0.1:8125'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread created with task id 11797
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: set name of thread 11797 to WEB_SERVER[stat
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_metrics/histograms.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_metrics/sets.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/gauges.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/counters.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/timers.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/meters.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/histograms.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/sets.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_events/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_events/gauges.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_events/counters.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_events/timers.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_events/meters.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_events/histograms.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_events/sets.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_events/unknown.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_events/errors.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: called DISABLE. Disabling it.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: PARSER ended
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: '/usr/lib/netdata/plugins.d/ioping.plugin' (pid 11788) disconnected after 0 successful data collections (ENDs).
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: child pid 11788 exited with code 1.
+Mon Jul 24 23:54:40 2023 daemon.err netdata[11595]: '/usr/lib/netdata/plugins.d/ioping.plugin' (pid 11788) exited with error code 1 and haven't collected any data. Disabling it.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: thread with task id 11783 finished
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_reads/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_reads/tcp.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_reads/udp.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_bytes/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_bytes/tcp.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_bytes/udp.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_packets/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_packets/tcp.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.statsd_packets/udp.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.tcp_connects/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.tcp_connects/connects.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.tcp_connects/disconnects.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.tcp_connected/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.tcp_connected/connected.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.private_charts/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.private_charts/charts.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/user.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/system.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/user.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/system.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/user.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/system.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_tc_time/main.db.
+Mon Jul 24 23:54:40 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.plugin_tc_time/run_time.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.server_cpu/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.server_cpu/user.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.server_cpu/system.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._tmp/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/guest_nice.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/guest.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.uptime/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._tmp/avail.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/steal.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.uptime/uptime.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._tmp/used.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.clients/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/softirq.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._tmp/reserved_for_root.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.clients/clients.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/irq.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._tmp/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._tmp/avail.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.requests/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/user.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.requests/requests.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._tmp/used.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/system.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.net/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._tmp/reserved_for_root.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/nice.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.net/in.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.net/out.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/iowait.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._/avail.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.response_time/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/system.cpu/idle.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._/used.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.response_time/average.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._/reserved_for_root.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.response_time/max.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/guest_nice.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.compression_ratio/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._/avail.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/guest.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/netdata.compression_ratio/savings.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._/used.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/steal.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._/reserved_for_root.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/softirq.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._dev/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/irq.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._dev/avail.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/user.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._dev/used.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/system.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_space._dev/reserved_for_root.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/nice.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._dev/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/iowait.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._dev/avail.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu0/idle.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._dev/used.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu1/main.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/disk_inodes._dev/reserved_for_root.db.
+Mon Jul 24 23:54:41 2023 daemon.info netdata[11595]: Initializing file /var/cache/netdata/cpu.cpu1/guest_nice.db.
+Mon Jul 24 23:54:41 2023 kern.warn kernel: [   56.109122] NFSD: Using /var/lib/nfs/v4recovery as the NFSv4 state recovery directory
+Mon Jul 24 23:54:41 2023 kern.info kernel: [   56.109864] NFSD: Using legacy client tracking operations.
+Mon Jul 24 23:54:41 2023 kern.info kernel: [   56.110363] NFSD: starting 10-second grace period (net f0000000)
+Mon Jul 24 23:54:41 2023 daemon.notice rpc.statd[11861]: Version 2.6.2 starting
+Mon Jul 24 23:54:41 2023 daemon.warn rpc.statd[11861]: Flags: No-Daemon TI-RPC
+Mon Jul 24 23:54:41 2023 daemon.notice rpc.mountd[11862]: Version 2.6.2 starting
+Mon Jul 24 23:54:41 2023 daemon.notice rpc.statd[11861]: Initializing NSM state
+Mon Jul 24 23:54:41 2023 daemon.warn rpc.statd[11861]: Running as root.  chown /var/lib/nfs to choose different user
+Mon Jul 24 23:54:41 2023 daemon.notice procd: /etc/rc.d/S99openclash: OpenClash Restart...
+Mon Jul 24 23:54:43 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:43 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:43 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:43 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:43 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:43 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:43 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:43 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:44 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:44 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:44 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:44 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:44 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:44 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:44 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:44 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:45 2023 daemon.err nmbd[10140]: [2023/07/24 23:54:45.161152,  0] ../../source3/nmbd/nmbd_become_lmb.c:398(become_local_master_stage2)
+Mon Jul 24 23:54:45 2023 daemon.err nmbd[10140]:   *****
+Mon Jul 24 23:54:45 2023 daemon.err nmbd[10140]:
+Mon Jul 24 23:54:45 2023 daemon.err nmbd[10140]:   Samba name server OPENWRT is now a local master browser for workgroup WORKGROUP on subnet 192.168.11.1
+Mon Jul 24 23:54:45 2023 daemon.err nmbd[10140]:
+Mon Jul 24 23:54:45 2023 daemon.err nmbd[10140]:   *****
+Mon Jul 24 23:54:45 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:45 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:45 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:45 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:45 2023 cron.info crond[12562]: crond (busybox 1.36.0) started, log level 5
+Mon Jul 24 23:54:45 2023 daemon.notice procd: /etc/rc.d/S99openclash: OpenClash Already Stop!
+Mon Jul 24 23:54:45 2023 daemon.err nginx[12212]: 2023/07/24 23:54:43 [emerg] 12212#0: still could not bind()
+Mon Jul 24 23:54:50 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:50 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:50 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:50 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:51 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:51 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:51 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:51 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:51 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:51 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:51 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:51 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:52 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:52 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:52 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:52 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:52 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to 0.0.0.0:443 failed (98: Address in use)
+Mon Jul 24 23:54:52 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to [::]:443 failed (98: Address in use)
+Mon Jul 24 23:54:52 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to 0.0.0.0:80 failed (98: Address in use)
+Mon Jul 24 23:54:52 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: bind() to [::]:80 failed (98: Address in use)
+Mon Jul 24 23:54:53 2023 daemon.err nginx[12852]: 2023/07/24 23:54:50 [emerg] 12852#0: still could not bind()
+Mon Jul 24 23:54:53 2023 daemon.info procd: Instance nginx::instance1 s in a crash loop 6 crashes, 2 seconds since last crash
+Mon Jul 24 23:55:46 2023 cron.info crond[13784]: crond (busybox 1.36.0) started, log level 5
+Mon Jul 24 23:55:46 2023 cron.info crond[14154]: crond (busybox 1.36.0) started, log level 5
