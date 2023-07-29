@@ -1,0 +1,602 @@
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_CONTAINER_OS_VERSION_ID=none
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_CONTAINER_OS_DETECTION=none
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_CONTAINER_IS_OFFICIAL_IMAGE=false
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_HOST_OS_NAME=OpenWrt
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_HOST_OS_ID=openwrt
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_HOST_OS_ID_LIKE=lede openwrt
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_HOST_OS_VERSION=SNAPSHOT
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_HOST_OS_VERSION_ID=snapshot
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_HOST_OS_DETECTION=/etc/os-release
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_HOST_IS_K8S_NODE=false
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_KERNEL_NAME=Linux
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_KERNEL_VERSION=6.1.38
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_ARCHITECTURE=aarch64
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_VIRTUALIZATION=none
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_VIRT_DETECTION=none
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_CONTAINER=unknown
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_CONTAINER_DETECTION=none
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_CPU_LOGICAL_CPU_COUNT=4
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_CPU_VENDOR=ARM
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_CPU_MODEL=Cortex-A53
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_CPU_FREQ=1608000000
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_CPU_DETECTION=lscpu
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_TOTAL_RAM=1034698752
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_RAM_DETECTION=procfs
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_TOTAL_DISK_SIZE=0
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: NETDATA_SYSTEM_DISK_DETECTION=sysfs
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: SQLite database /var/cache/netdata/netdata-meta.db initialization
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: SQLite database initialization completed
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: CONFIG: cannot load user config '/etc/netdata/stream.conf'. Will try stock config.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Host 'OpenWrt' (at registry as 'OpenWrt') with guid '45993fdc-2dd3-11ee-8081-c6e40b7172e8' initialized, os 'linux', timezone 'CST', tags '', program_name 'netdata', program_version '20200416-2457-ge37fe980b', update every 2, memory mode save, history entries 3996, streaming disabled (to '' with api key ''), health disabled, cache_dir '/var/cache/netdata', varlib_dir '/var/lib/netdata', health_log '/var/lib/netdata/health/health-log.db', alarms default handler '/usr/lib/netdata/plugins.d/alarm-notify.sh', alarms default recipient 'root'
+Sat Jul 29 22:14:22 2023 daemon.err netdata[22856]: PROCFILE: Cannot open file '/etc/netdata/.environment'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 22998
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 22998 to PLUGIN[idlejitt
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.idlejitter/main.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 22999
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 22999 to GLOBAL_STATS
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23000
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23000 to HEALTH
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23001
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23001 to PLUGINSD
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23002
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23002 to SERVICE
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.idlejitter/min.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.idlejitter/max.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23003
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23003 to STATSD
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23004
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23004 to BACKENDS
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23007
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23007 to PLUGIN[timex]
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23008
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23008 to PLUGIN[tc]
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.idlejitter/average.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23006
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23006 to WEB_SERVER[stat
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing command server.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: starting worker 2
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23005
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23005 to EXPORTING
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23009
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: cleaning up...
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23009 to PLUGIN[diskspac
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread with task id 23004 finished
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23010
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23010 to PLUGIN[proc]
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: netdata initialization completed. Enjoy real-time performance monitoring!
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: CONFIG: cannot load user exporting config '/etc/netdata/exporting.conf'. Will try the stock version.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: starting worker 3
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23013
+Sat Jul 29 22:14:22 2023 daemon.err netdata[22856]: This agent doesn't have ACLK.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: starting worker 4
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23014
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23014 to WEB_SERVER[stat
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23015
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23015 to WEB_SERVER[stat
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23013 to WEB_SERVER[stat
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23016
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23016 to PLUGINSD[ioping
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23017
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23017 to PLUGINSD[perf]
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: No connector instances to activate
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: EXPORTING: no exporting connectors configured
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: cleaning up...
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread with task id 23005 finished
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: connected to '/usr/lib/netdata/plugins.d/ioping.plugin' running on pid 23018
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: connected to '/usr/lib/netdata/plugins.d/perf.plugin' running on pid 23019
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: thread created with task id 23020
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_metrics/main.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: set name of thread 23020 to STATSD_COLLECTO
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: STATSD collector thread started with taskid 23020
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'udp:[::1]:8125'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'udp:127.0.0.1:8125'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'tcp:[::1]:8125'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: POLLFD: LISTENER: listening on 'tcp:127.0.0.1:8125'
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_metrics/gauges.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_metrics/counters.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_metrics/timers.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_metrics/meters.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_metrics/histograms.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_metrics/sets.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/main.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/gauges.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/counters.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/timers.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/meters.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/histograms.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/sets.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_events/main.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_events/gauges.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_events/counters.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_events/timers.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_events/meters.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_events/histograms.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_events/sets.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_events/unknown.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_events/errors.db.
+Sat Jul 29 22:14:22 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_reads/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_reads/tcp.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_reads/udp.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_bytes/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_bytes/tcp.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_bytes/udp.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_packets/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_packets/tcp.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.statsd_packets/udp.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.tcp_connects/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.tcp_connects/connects.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.tcp_connects/disconnects.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.tcp_connected/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.tcp_connected/connected.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.private_charts/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.private_charts/charts.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/user.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/system.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/user.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/system.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: called DISABLE. Disabling it.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: PARSER ended
+Sat Jul 29 22:14:23 2023 daemon.err netdata[22856]: '/usr/lib/netdata/plugins.d/perf.plugin' (pid 23019) disconnected after 0 successful data collections (ENDs).
+Sat Jul 29 22:14:23 2023 daemon.err netdata[22856]: child pid 23019 exited with code 1.
+Sat Jul 29 22:14:23 2023 daemon.err netdata[22856]: '/usr/lib/netdata/plugins.d/perf.plugin' (pid 23019) exited with error code 1 and haven't collected any data. Disabling it.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: thread with task id 23017 finished
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: called DISABLE. Disabling it.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: PARSER ended
+Sat Jul 29 22:14:23 2023 daemon.err netdata[22856]: '/usr/lib/netdata/plugins.d/ioping.plugin' (pid 23018) disconnected after 0 successful data collections (ENDs).
+Sat Jul 29 22:14:23 2023 daemon.err netdata[22856]: child pid 23018 exited with code 1.
+Sat Jul 29 22:14:23 2023 daemon.err netdata[22856]: '/usr/lib/netdata/plugins.d/ioping.plugin' (pid 23018) exited with error code 1 and haven't collected any data. Disabling it.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: thread with task id 23016 finished
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/user.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/system.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_tc_time/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.plugin_tc_time/run_time.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.server_cpu/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/guest_nice.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/guest.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.server_cpu/user.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._tmp/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/steal.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/softirq.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.server_cpu/system.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._tmp/avail.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/irq.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.uptime/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/user.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/system.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._tmp/used.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/nice.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._tmp/reserved_for_root.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/iowait.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/system.cpu/idle.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.uptime/uptime.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_inodes._tmp/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_inodes._tmp/avail.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/guest_nice.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.clients/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_inodes._tmp/used.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/guest.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_inodes._tmp/reserved_for_root.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/steal.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/softirq.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.clients/clients.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/irq.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/user.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._/avail.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.requests/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/system.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._/used.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.requests/requests.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._/reserved_for_root.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.net/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/nice.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/iowait.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_inodes._/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.net/in.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu0/idle.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_inodes._/avail.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.net/out.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu1/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_inodes._/used.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_inodes._/reserved_for_root.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu1/guest_nice.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._dev/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu1/guest.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._dev/avail.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.response_time/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu1/steal.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._dev/used.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.response_time/average.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/disk_space._dev/reserved_for_root.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.response_time/max.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu1/softirq.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.compression_ratio/main.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu1/irq.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu1/user.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/netdata.compression_ratio/savings.db.
+Sat Jul 29 22:14:23 2023 daemon.info netdata[22856]: Initializing file /var/cache/netdata/cpu.cpu1/system.db.
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.209840] qbittorrent-nox invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.210914] CPU: 3 PID: 21522 Comm: qbittorrent-nox Not tainted 6.1.38 #0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.211523] Hardware name: FriendlyElec NanoPi R2S (DT)
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.211985] Call trace:
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.212204]  dump_backtrace.part.0+0xbc/0xd0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.212591]  show_stack+0x18/0x30
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.212888]  dump_stack_lvl+0x68/0x84
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.213216]  dump_stack+0x18/0x34
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.213511]  dump_header+0x48/0x208
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.213822]  oom_kill_process+0x264/0x270
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.214179]  out_of_memory+0xd4/0x330
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.214503]  __alloc_pages+0x664/0xc6c
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.214837]  __folio_alloc+0x1c/0x60
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.215154]  __filemap_get_folio+0x18c/0x3a4
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.215532]  filemap_fault+0x134/0x88c
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.215865]  __do_fault+0x3c/0x100
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.216167]  __handle_mm_fault+0x718/0xba0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.216529]  handle_mm_fault+0x1c4/0x2b0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.216874]  do_page_fault+0x124/0x390
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.217209]  do_translation_fault+0xac/0xc0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.217580]  do_mem_abort+0x44/0x94
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.217890]  el0_ia+0x5c/0xd0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.218157]  el0t_64_sync_handler+0x134/0x140
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.218541]  el0t_64_sync+0x170/0x174
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.219166] Mem-Info:
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.223538] active_anon:115762 inactive_anon:87043 isolated_anon:0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.223538]  active_file:72 inactive_file:494 isolated_file:0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.223538]  unevictable:0 dirty:0 writeback:0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.223538]  slab_reclaimable:6594 slab_unreclaimable:23135
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.223538]  mapped:1012 shmem:10017 pagetables:1476
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.223538]  sec_pagetables:0 bounce:0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.223538]  kernel_misc_reclaimable:0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.223538]  free:6290 free_pcp:127 free_cma:116
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.227220] Node 0 active_anon:479760kB inactive_anon:331460kB active_file:2524kB inactive_file:344kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:4100kB dirty:0kB writeback:0kB shmem:40068kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 215040kB writeback_tmp:0kB kernel_stack:4880kB pagetables:5904kB sec_pagetables:0kB all_unreclaimable? no
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.230089] DMA free:24628kB boost:0kB min:16384kB low:20480kB high:24576kB reserved_highatomic:4096KB active_anon:465220kB inactive_anon:346000kB active_file:0kB inactive_file:2856kB unevictable:0kB writepending:0kB present:1046528kB managed:1010448kB mlocked:0kB bounce:0kB free_pcp:196kB local_pcp:0kB free_cma:464kB
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.232795] lowmem_reserve[]: 0 0 0 0
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.233153] DMA: 1320*4kB (UMEC) 464*8kB (UMEC) 171*16kB (UME) 62*32kB (UMEH) 43*64kB (MH) 18*128kB (M) 12*256kB (MH) 4*512kB (M) 0*1024kB 0*2048kB 0*4096kB = 23888kB
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.234492] 10686 total pagecache pages
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.234909] 0 pages in swap cache
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.235227] Free swap  = 0kB
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.235484] Total swap = 0kB
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.235738] 261632 pages RAM
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.235990] 0 pages HighMem/MovableOnly
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.236326] 9020 pages reserved
+Sat Jul 29 22:15:10 2023 kern.warn kernel: [30568.236602] 16384 pages cma reserved
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.236915] Tasks state (memory values in pages):
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.237325] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.238178] [    428]    81   428      352       37    45056        0             0 ubusd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.239023] [    447]     0   447      226        9    45056        0             0 askfirst
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.239933] [    450]     0   450      226        9    36864        0             0 askfirst
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.240902] [    521]     0   521      263       16    36864        0             0 urngd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.241633] [    663]     0   663      479      165    40960        0             0 haveged
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.242422] [   1253]   514  1253      332       37    36864        0             0 logd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.243154] [   1317]     0  1317      474       46    45056        0             0 rpcd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.243975] [   1914] 65533  1914      361       35    40960        0             0 rpcbind
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.244741] [   1962]     0  1962      690       25    40960        0             0 hostapd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.245477] [   1963]     0  1963      690       25    45056        0             0 wpa_supplicant
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.246328] [   1966]   101  1966     1409       41    49152        0             0 hostapd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.247139] [   1967]   101  1967     1409       41    49152        0             0 wpa_supplicant
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.248058] [   2026]     0  2026      520       55    40960        0             0 netifd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.248812] [   2154]     0  2154      434       36    45056        0             0 odhcpd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.249773] [   2421]     0  2421    40202     1983   106496        0             0 php8-fcgi
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.250538] [   2728]     0  2728     1413      141    49152        0             0 uhttpd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.251304] [   2784]     0  2784      315       17    36864        0             0 vsftpd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.252035] [   2803]     0  2803      434       36    36864        0             0 dbus-daemon
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.252798] [   2980]     0  2980      276       15    40960        0             0 dropbear
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.253539] [   3195] 65534  3195      620       99    40960        0             0 avahi-daemon
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.254309] [   5414]     0  5414      268       16    40960        0             0 odhcp6c
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.255054] [   5415]     0  5415      312       34    36864        0             0 irqbalance
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.255951] [   5463]     0  5463      353       37    40960        0             0 pppd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.256761] [   5527]     0  5527      416       29    40960        0             0 rsync
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.257506] [   8877]     0  8877      549       45    40960        0             0 oafd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.258271] [   8953]     0  8953      621       55    36864        0             0 rockchip-pwm-fa
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.259088] [   8969]     0  8969      268       16    36864        0             0 odhcp6c
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.259823] [   9406]     0  9406     9712      819   118784        0             0 smbd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.260600] [   9407]     0  9407     6309      350    86016        0             0 nmbd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.261383] [   9506]     0  9506      690       28    40960        0             0 ntpd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.262166] [   9514]   123  9514      326       14    40960        0             0 ntpd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.263013] [   9819]     0  9819     9333      433   106496        0             0 smbd-notifyd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.263848] [   9821]     0  9821     9335      435   106496        0             0 cleanupd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.264611] [   9922]     0  9922      723       30    45056        0             0 aria2.main
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.265426] [   9931]  6800  9931     2956      936    65536        0             0 aria2c
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.266160] [  11368]     0 11368      441       77    40960        0             0 nlbwmon
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.267054] [  12873]     0 12873      321       23    36864        0             0 rpc.statd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.267885] [  12874]     0 12874      470       34    36864        0             0 rpc.mountd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.268822] [  19306]     0 19306   184655     3658   221184        0             0 xray
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.269667] [  19331] 65534 19331      380       28    36864        0             0 dnsmasq
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.270419] [  19369]     0 19369   184383     2056   139264        0             0 xray
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.271160] [  19675]     0 19675     1564      324    53248        0             0 ssr-local
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.271912] [  19708]     0 19708   321181   151339  1339392        0             0 xray
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.272660] [  20516]     0 20516      331       18    40960        0             0 monitor.sh
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.273573] [  20521]     0 20521      344       33    40960        0             0 test.sh
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.274322] [  21522]     0 21522    21053     5793   159744        0             0 qbittorrent-nox
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.275155] [  21977]     0 21977     1595      105    45056        0             0 ttyd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.275944] [  24031]     0 24031      238       17    36864        0             0 wsdd2
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.276707] [  24608]     0 24608      690       27    45056        0             0 dnsmasq
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.277444] [  24610]   453 24610      654      284    40960        0             0 dnsmasq
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.278267] [   6717]     0  6717   190169     4162   217088        0             0 dockerd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.279406] [   6752]     0  6752   188249     3106   188416        0             0 containerd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.280240] [   7195]     0  7195   178191     1585    81920        0             0 docker-proxy
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.281042] [   7206]     0  7206   178191     1076    81920        0             0 docker-proxy
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.281892] [   7239]     0  7239   179815     1571    90112        0             1 containerd-shim
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.282808] [   7259]     0  7259      424       17    36864        0             0 entrypoint.sh
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.283616] [   7310]     0  7310   186020     4239   172032        0             0 alist
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.284395] [   7510]     0  7510      228        9    40960        0             0 busybox-extras
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.285208] [   7512]     0  7512     7562      329    69632        0             0 nginx
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.285931] [   7513]   100  7513     7674      466    65536        0             0 nginx
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.286729] [   7514]   100  7514     7674      466    65536        0             0 nginx
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.287626] [   7515]   100  7515     7674      413    61440        0             0 nginx
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.288536] [   7516]   100  7516     7674      466    65536        0             0 nginx
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.289380] [   7517]   100  7517     7620      405    65536        0             0 nginx
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.290201] [   9400]     0  9400     1089      369    45056        0             0 snmpd
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.290942] [  18424]     0 18424      327       12    36864        0             0 crond
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.291664] [  18700]     0 18700    65362     2889   806912        0             0 node
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.292688] [  18701]     0 18701      327       14    36864        0             0 log_check.sh
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.294531] [  21836]     0 21836      326        9    36864        0             0 sleep
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.296272] [  22601]     0 22601      326       12    36864        0             0 sleep
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.297033] [  22628]     0 22628      344       32    40960        0             0 test.sh
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.297908] [  22629]     0 22629      344       32    40960        0             0 test.sh
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.298873] [  22630]     0 22630     1357      107    45056        0             0 curl
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.299616] [  22631]     0 22631      326        9    36864        0             0 grep
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.300411] [  22856]     0 22856     9072     3506    81920        0          1000 netdata
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.301149] [  22871]     0 22871      326       12    40960        0             0 sleep
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.301874] [  22873]     0 22873     3037       30    45056        0          1000 netdata
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.302721] [  23012]     0 23012      662       96    36864        0          1000 bash
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.303694] [  23065]     0 23065      283       33    40960        0             0 modprobe
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.304516] [  23069]     0 23069      175        7    36864        0             0 askfirst
+Sat Jul 29 22:15:10 2023 kern.info kernel: [30568.305585] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/,task=netdata,pid=22856,uid=0
+Sat Jul 29 22:15:10 2023 kern.err kernel: [30568.306836] Out of memory: Killed process 22856 (netdata) total-vm:36288kB, anon-rss:13992kB, file-rss:0kB, shmem-rss:32kB, UID:0 pgtables:80kB oom_score_adj:1000
+Sat Jul 29 22:15:25 2023 daemon.info netdata[23090]: TIMEZONE: using strftime(): 'CST'
+Sat Jul 29 22:15:25 2023 daemon.info netdata[23090]: TIMEZONE: fixed as 'CST'
+Sat Jul 29 22:15:25 2023 daemon.info netdata[23090]: SIGNAL: Not enabling reaper
+Sat Jul 29 22:15:26 2023 daemon.info netdata[23090]: resources control: allowed file descriptors: soft = 1024, max = 4096
+Sat Jul 29 22:15:26 2023 daemon.info netdata[23090]: Adjusted my Out-Of-Memory (OOM) score from 0 to 1000.
+Sat Jul 29 22:15:26 2023 daemon.err netdata[23090]: Cannot adjust netdata scheduling policy to idle (5), with priority 0. Falling back to nice.
+Sat Jul 29 22:15:26 2023 daemon.err netdata[23090]: Cannot get my current process scheduling policy.
+Sat Jul 29 22:15:27 2023 daemon.info netdata[23090]: netdata started on pid 23090.
+Sat Jul 29 22:15:28 2023 daemon.info netdata[23090]: Initializing spawn client.
+Sat Jul 29 22:15:29 2023 daemon.info netdata[23090]: Executing /usr/lib/netdata/plugins.d/system-info.sh
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_CONTAINER_OS_NAME=none
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_CONTAINER_OS_ID=none
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_CONTAINER_OS_ID_LIKE=none
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_CONTAINER_OS_VERSION=none
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_CONTAINER_OS_VERSION_ID=none
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_CONTAINER_OS_DETECTION=none
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_CONTAINER_IS_OFFICIAL_IMAGE=false
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_HOST_OS_NAME=OpenWrt
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_HOST_OS_ID=openwrt
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_HOST_OS_ID_LIKE=lede openwrt
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_HOST_OS_VERSION=SNAPSHOT
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_HOST_OS_VERSION_ID=snapshot
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_HOST_OS_DETECTION=/etc/os-release
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_HOST_IS_K8S_NODE=false
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_KERNEL_NAME=Linux
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_KERNEL_VERSION=6.1.38
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_ARCHITECTURE=aarch64
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_VIRTUALIZATION=none
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_VIRT_DETECTION=none
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_CONTAINER=unknown
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_CONTAINER_DETECTION=none
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_CPU_LOGICAL_CPU_COUNT=4
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_CPU_VENDOR=ARM
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_CPU_MODEL=Cortex-A53
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_CPU_FREQ=1608000000
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_CPU_DETECTION=lscpu
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_TOTAL_RAM=1034698752
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_RAM_DETECTION=procfs
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_TOTAL_DISK_SIZE=0
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: NETDATA_SYSTEM_DISK_DETECTION=sysfs
+Sat Jul 29 22:16:13 2023 daemon.info netdata[23090]: SQLite database /var/cache/netdata/netdata-meta.db initialization
+Sat Jul 29 22:16:14 2023 daemon.info netdata[23090]: SQLite database initialization completed
+Sat Jul 29 22:16:14 2023 daemon.info netdata[23090]: CONFIG: cannot load user config '/etc/netdata/stream.conf'. Will try stock config.
+Sat Jul 29 22:16:14 2023 daemon.info netdata[23090]: Host 'OpenWrt' (at registry as 'OpenWrt') with guid '45993fdc-2dd3-11ee-8081-c6e40b7172e8' initialized, os 'linux', timezone 'CST', tags '', program_name 'netdata', program_version '20200416-2457-ge37fe980b', update every 2, memory mode save, history entries 3996, streaming disabled (to '' with api key ''), health disabled, cache_dir '/var/cache/netdata', varlib_dir '/var/lib/netdata', health_log '/var/lib/netdata/health/health-log.db', alarms default handler '/usr/lib/netdata/plugins.d/alarm-notify.sh', alarms default recipient 'root'
+Sat Jul 29 22:16:15 2023 daemon.err netdata[23090]: PROCFILE: Cannot open file '/etc/netdata/.environment'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23385
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23385 to PLUGIN[idlejitt
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.idlejitter/main.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23386
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23386 to GLOBAL_STATS
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23390
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23391
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23391 to BACKENDS
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: cleaning up...
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23387
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23387 to HEALTH
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23390 to STATSD
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23389
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23389 to SERVICE
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread with task id 23391 finished
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23392
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23392 to EXPORTING
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: CONFIG: cannot load user exporting config '/etc/netdata/exporting.conf'. Will try the stock version.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing command server.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23393
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23393 to WEB_SERVER[stat
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: starting worker 2
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: starting worker 3
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: starting worker 4
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23398
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23398 to WEB_SERVER[stat
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: No connector instances to activate
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: EXPORTING: no exporting connectors configured
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: cleaning up...
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread with task id 23392 finished
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23394
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23394 to PLUGIN[timex]
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23395
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23395 to PLUGIN[tc]
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23403
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23403 to STATSD_COLLECTO
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: STATSD collector thread started with taskid 23403
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'udp:[::1]:8125'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'udp:127.0.0.1:8125'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'tcp:[::1]:8125'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'tcp:127.0.0.1:8125'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.idlejitter/min.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_metrics/main.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.idlejitter/max.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.idlejitter/average.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_metrics/gauges.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_metrics/counters.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_metrics/timers.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_metrics/meters.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_metrics/histograms.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_metrics/sets.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/main.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/gauges.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/counters.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/timers.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/meters.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/histograms.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_useful_metrics/sets.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_events/main.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23388
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23388 to PLUGINSD
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23396
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23396 to PLUGIN[diskspac
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23397
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_events/gauges.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23397 to PLUGIN[proc]
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23399
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_events/counters.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_events/timers.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23399 to WEB_SERVER[stat
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23401
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23401 to WEB_SERVER[stat
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_events/meters.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23404
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23404 to PLUGINSD[ioping
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'tcp:0.0.0.0:19999'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: POLLFD: LISTENER: listening on 'tcp:[::]:19999'
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_events/histograms.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_events/sets.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_events/unknown.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_events/errors.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: netdata initialization completed. Enjoy real-time performance monitoring!
+Sat Jul 29 22:16:15 2023 daemon.err netdata[23090]: This agent doesn't have ACLK.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: thread created with task id 23405
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: set name of thread 23405 to PLUGINSD[perf]
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_reads/main.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_reads/tcp.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_reads/udp.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_bytes/main.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_bytes/tcp.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_bytes/udp.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_packets/main.db.
+Sat Jul 29 22:16:15 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_packets/tcp.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.statsd_packets/udp.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.tcp_connects/main.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: connected to '/usr/lib/netdata/plugins.d/ioping.plugin' running on pid 23406
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.tcp_connects/connects.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.tcp_connects/disconnects.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.tcp_connected/main.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.tcp_connected/connected.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.private_charts/main.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.private_charts/charts.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/main.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: connected to '/usr/lib/netdata/plugins.d/perf.plugin' running on pid 23407
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/user.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_statsd_charting_cpu/system.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/main.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/user.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_statsd_collector1_cpu/system.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: called DISABLE. Disabling it.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: PARSER ended
+Sat Jul 29 22:16:16 2023 daemon.err netdata[23090]: '/usr/lib/netdata/plugins.d/perf.plugin' (pid 23407) disconnected after 0 successful data collections (ENDs).
+Sat Jul 29 22:16:16 2023 daemon.err netdata[23090]: child pid 23407 exited with code 1.
+Sat Jul 29 22:16:16 2023 daemon.err netdata[23090]: '/usr/lib/netdata/plugins.d/perf.plugin' (pid 23407) exited with error code 1 and haven't collected any data. Disabling it.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: thread with task id 23405 finished
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: called DISABLE. Disabling it.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: PARSER ended
+Sat Jul 29 22:16:16 2023 daemon.err netdata[23090]: '/usr/lib/netdata/plugins.d/ioping.plugin' (pid 23406) disconnected after 0 successful data collections (ENDs).
+Sat Jul 29 22:16:16 2023 daemon.err netdata[23090]: child pid 23406 exited with code 1.
+Sat Jul 29 22:16:16 2023 daemon.err netdata[23090]: '/usr/lib/netdata/plugins.d/ioping.plugin' (pid 23406) exited with error code 1 and haven't collected any data. Disabling it.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: thread with task id 23404 finished
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/main.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/user.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_tc_cpu/system.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_tc_time/main.db.
+Sat Jul 29 22:16:16 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.plugin_tc_time/run_time.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread4_cpu/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread4_cpu/user.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread3_cpu/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread4_cpu/system.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread3_cpu/user.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread2_cpu/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread3_cpu/system.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.server_cpu/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread2_cpu/user.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread2_cpu/system.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.server_cpu/user.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.server_cpu/system.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread1_cpu/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/guest_nice.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/guest.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/steal.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/softirq.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/irq.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.uptime/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/user.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread1_cpu/user.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.uptime/uptime.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_space._tmp/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/system.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/nice.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.clients/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_space._tmp/avail.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.web_thread1_cpu/system.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.clients/clients.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/iowait.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_space._tmp/used.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.requests/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_space._tmp/reserved_for_root.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/system.cpu/idle.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.requests/requests.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.net/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.net/in.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_inodes._tmp/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.net/out.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/guest_nice.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_inodes._tmp/avail.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.response_time/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/guest.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_inodes._tmp/used.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/steal.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.response_time/average.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/softirq.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.response_time/max.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/irq.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.compression_ratio/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/user.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_inodes._tmp/reserved_for_root.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/system.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/netdata.compression_ratio/savings.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/nice.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_space._/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/iowait.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_space._/avail.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_space._/used.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu0/idle.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_space._/reserved_for_root.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu1/main.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/cpu.cpu1/guest_nice.db.
+Sat Jul 29 22:16:17 2023 daemon.info netdata[23090]: Initializing file /var/cache/netdata/disk_inodes._/main.db.
